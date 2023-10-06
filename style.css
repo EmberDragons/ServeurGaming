@@ -1,0 +1,119 @@
+header /*caractéristiques de l'entête*/
+{
+color : rgb(255, 100, 100); /*couleur de la police*/
+background-color : rgb(75, 75, 75); /*couleur de fond*/
+border : 4px, black; /*taille en pixels et couleur de la bordure*/
+border-radius : 8px; /*bordure arrondie*/
+padding : 4px, 5px, 4px, 4px; /*marges internes*/
+margin-left : 15px; /*marge externe gauche*/
+margin-right : 15 px; /*marge externe droite*/
+font-size : 60px; /*taille de la police*/
+font-weight : bold; /*texte en gras*/
+font-style : italic; /*texte en italic*/
+text-align : center; /*texte centré*/
+}
+/*Complexe background system*/
+.image-1 {
+  background-image: url("https://img.freepik.com/photos-premium/environnement-fantastique-foret-magique-dans-style-art-anime_492154-6663.jpg");
+}
+.image-2 {
+  background-image: url("https://img.freepik.com/premium-photo/rainbow_26791-1215.jpg");
+}
+p {
+	color : rgb(0, 100, 150);
+	text-align : center;
+	font-style : italic;
+	font-size : 30px;
+}
+h1 /* caractéristiques des titres h1*/
+{
+    color : rgb(160, 40, 0); /*les titres h1 seront rouges */
+    text-align : center; /*les titres h1 seront centrés*/
+    font-weight : bold; /*les titres h1 seront en gras*/
+    text-decoration : underline; /*les titres h1 seront soulignés*/
+    font-size : 40px; /*taille de la police des titres h1*/
+	
+}
+h2
+{
+	color : rgb(20, 20, 20);
+	font-weight : bold;
+	font-size : 50px;
+}
+h3
+{
+	color : rgb(100, 100, 100);
+	font-weight : bold;
+	text-decoration : underline;
+	font-size : 50px;
+}
+footer2
+{
+	position : absolute; /*position absolue et non relative aux autres éléments de la page*/
+    bottom : -25; /* hauteur = 0*/
+    left : 0; /*le pied de page démarre complètement à gauche de la page*/
+    right : 0;
+	color : rgb(200, 50, 100);
+	text-align : center;
+	font-style : italic;
+	font-size : 30px;
+    background-color : rgb(75, 75, 75); /*couleur de fond*/
+    border : 5px, black; /*taille en pixels et couleur de la bordure*/
+    border-radius : 10px; /*bordure arrondie*/
+}
+footer 
+{
+	position : absolute; /*position absolue et non relative aux autres éléments de la page*/
+    bottom : -25; /* hauteur = 0*/
+    left : 0; /*le pied de page démarre complètement à gauche de la page*/
+    right : 0;
+	color : rgb(0, 100, 150);
+	text-align : center;
+	font-style : italic;
+	font-size : 25px;
+    background-color : rgb(75, 75, 75); /*couleur de fond*/
+    border : 3px, black; /*taille en pixels et couleur de la bordure*/
+    border-radius : 10px; /*bordure arrondie*/
+}
+body{
+    background-color : rgb(20, 22, 21); /*couleur de fond*/
+    background-position:center;
+	font-style : bold;
+	font-size : 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    background-color : rgb(240, 200, 230); /*couleur de fond*/
+	border : 2px black solid;
+	font-style : bold;
+	border-radius : 6px;
+	padding : 6px 6px 6px 6px;
+	margin-left : 20px;
+	margin-right : 100px;
+	margin-bottom : 10px;
+	min-width : 600px;
+	min-height : 60px;
+	font-size : 40px;
+    height:70vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul
+{
+	font-size : 25px;
+	color : rgb(20, 230, 250);
+	text-decoration : underline;
+}
+a /* Style des liens */
+{
+    color : rgb(100, 0, 100); /* Liens en violet */
+	font-size : 35px;
+}
+a : hover /* Style des liens quand on passe la souris dessus */
+{
+color : rgb(255, 100, 150); /* Liens en rose quand on passe la souris dessus */
+}
